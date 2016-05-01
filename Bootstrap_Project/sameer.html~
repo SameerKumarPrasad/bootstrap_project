@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <title>SAMEER KUMAR</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css">
+    <link href="css/ionicons.min.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
+
+
+   
+  </head>
+
+  <body>
+
+    
+
+   <div id="h">
+   	<div class="layer">
+      <div class="space">
+        
+      </div><!--/logo-->
+      <div class="container centered">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h1>Hello, my name is <b>Sameer Kumar</b>.<br/>I build to get high.</h1>
+          </div>
+        </div><!--/row-->
+
+        <div class="row mt">
+          <div class="col-sm-4">
+            <a href="#ab"><i class="ion-ios7-monitor-outline"></i>
+            <h3><b>About Me</b></h3></a>
+          </div><!--/col-md-4-->
+
+          <div class="col-sm-4">
+            <a href="#project"><i class="ion-ios7-browsers-outline"></i>
+            <h3><b>Projects</b></h3></a>
+          </div><!--/col-md-4-->
+
+          <div class="col-sm-4">
+            <a href="#f"><i class="ion-ios7-contact-outline"></i>
+            <h3><b>Contact</b></h3></a>
+          </div><!--/col-md-4-->
+        
+       </div><!--/row-->
+     </div><!--/container-->
+ </div>
+    </div><!--H-->
+
+
+       <!-- Start About Us Section -->
+    <section id="ab" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="k" class="section-title text-center wow fadeInDown" data-wow-duration="2s" data-wow-delay="50ms">
+                        <h2>About Me</h2>
+                    </div>                        
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-md-5">
+                   <div id ="k" class="about-img">
+                       <img src="img/aboutme.jpg" class="img-responsive" alt="About images">
+                       
+                   </div>
+               </div>
+               <div id ="k" class="col-md-7">
+                   <div class="about-text">
+                       <p>My name is Sameer Kumar and I am currently persuing BTech in Computer Science and Engineering from Indraprastha Institute Of Information Technology. I Specialize in mobile computing and Front-end Development.I have been working on the android platform for the last one and a  half year and I am also very comfirtable with web development frameworks like Bootstrap and AngualarJs.</p> 
+                   </div>
+                  
+               </div>
+               
+            </div>
+        </div>
+    </section>
+        
+    
+	<!-- project section -->
+	<section class="project text-center" id="project">
+		<div class="container">
+			<div class="row">
+				<h2 id="mp">My Projects</h2>
+				<h4>A list of Projects that I have done.</h4>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/ac.png" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>A</h1>
+							</div>
+
+							<h3>Air Canteen</h3>
+							<p>An android app that lets you order food from the canteen a littel before the goig there. By the time you reach there your order will be ready</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail clearfix">
+						<div class="about-img">
+							<img class="img-responsive" src="img/messiah2.png" alt="">
+						</div>
+						<a href="https://github.com/SameerKumarPrasad/DHCSProject"><div class="about-details">
+							<div class="pentagon-text">
+								<h1>M</h1>
+							</div>
+							<h3>Messiah</h3>
+							<p>An android apps that helps the mess vendor getting the approximate of how many peoples are going to eat a particular meal.</p>
+						</div></a>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/jd.jpg" alt="">
+						</div>
+						<a href="https://github.com/sahilbabbar/JustDonate"><div class="about-details">
+							<div class="pentagon-text">
+								<h1>J</h1>
+							</div>
+							<h3>Just Donate</h3>
+							<p>An android app that lets you request blood, and find potential doners close to your location.
+								It also hepls the NGO's and hospitals in Organising blood camps</p>
+						</div></a>
+					</div>
+				</div>
+
+				
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/sd.jpg" alt="">
+						</div>
+						<a href="https://github.com/SameerKumarPrasad/Sheetless_drawing"><div class="about-details">
+							<div class="pentagon-text">
+								<h1>S</h1>
+							</div>
+
+							<h3>Sheetless Drawing</h3>
+							<p>A application written in OpenCV(c++) which helps you draw sketches using your finger on a digital frame, and clear it with a plam  gesture. </p>
+						</div></a
+						>
+					</div>
+				</div>	
+
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/fb.jpg" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>F</h1>
+							</div>
+
+							<h3>FoosBall Game</h3>
+							<p>A FoosBall Game coded in java swing ,with different levels of difficulty and an option of playing with the computer of another player</p>
+						</div>
+					</div>
+				</div>
+				
+
+				<div class="col-md-4 col-sm-6">
+					<div class="single-about-detail">
+						<div class="about-img">
+							<img class="img-responsive" src="img/hss.jpg" alt="">
+						</div>
+						<div class="about-details">
+							<div class="pentagon-text">
+								<h1>H</h1>
+							</div>
+
+							<h3>Home Security System</h3>
+							<p>A home security system made using aruduino, that notifies you with a message on your mobile in case of fire or if an intruder trespasses into your house. </p>
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+			</div>
+		</div>
+
+	</section><!-- end of about section -->
+
+    
+
+    <div id="f">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-md-8 col-md-offset-2">
+            <a href="https://twitter.com/imsameerkp"><i class="ion-social-twitter"></i></a>
+            <a href="https://github.com/SameerKumarPrasad"><i class="ion-social-github"></i></a>
+            <a href="https://www.instagram.com/prasadsameer95/"><i class="ion-social-instagram"></i></a>
+            <a href="https://www.facebook.com/sameerkumar.prasad"><i class="ion-social-facebook"></i></a>
+            <a href="https://plus.google.com/u/0/+SameerKumar95"><i class="ion-social-googleplus"></i></a>
+            <a href="https://www.linkedin.com/in/sameer-kumar-a50a3679"><i class="ion-social-linkedin"></i></a>
+          </div><!--/col-md-8-->
+        </div>
+      </div><!--/container-->
+    </div><!--/.F-->
+
+  </body>
+</html>

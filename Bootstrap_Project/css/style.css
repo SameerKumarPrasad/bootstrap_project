@@ -1,0 +1,272 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+
+
+* { 
+	margin: 0;
+	padding: 0px;
+    font-family: 'Lato', sans-serif;
+} 
+body { 
+	background: #fff; 
+	margin: 0; 
+	color: #5a5a5a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+
+p { 
+	padding: 0; 
+	margin-bottom: 12px; 
+    font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px; 
+	line-height: 28px;
+	color: #666; 
+	margin-top: 10px; 
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.centered {text-align: center}
+.mt {margin-top: 50px;}
+
+a { 
+	padding: 0;
+	margin: 0;
+	text-decoration: none; 
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+	color: white;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:#696E74;
+}
+
+.nopadding {
+	padding: 0px !important;
+	margin: 0px;
+}
+
+
+
+
+#h {
+	background: url(../img/maji.jpg) no-repeat center top;
+	padding-top: 5px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 100%;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#h .space {
+	margin-top: 30px;
+	margin-left: 40px;
+	padding-bottom: 150px;
+}
+
+#h .logo h2{
+	font-weight: 900;
+	color: white;
+	letter-spacing: 1px;
+}
+
+#h h3 {
+	margin-top: 10px;
+}
+
+#h i {
+	font-size: 50px;
+}
+
+
+
+
+#f {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #38AFA9;
+}
+
+#f i {
+	margin-right: 30px;
+	font-size: 35px;
+}
+
+#f a {
+	color: white;
+}
+
+
+#k {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #38AFA9;
+
+}
+
+#k h1{
+	font-weight: 900;
+	color: white;
+	letter-spacing: 1px;
+}
+#k h2{
+	font-weight: 300;
+	color: white;
+	letter-spacing: 1px;
+}
+
+#k p{
+	font-weight: 300;
+	color: white;
+	letter-spacing: 1px;
+}
+
+
+.project h2{
+	font-size: 90px;
+	color: #42b3e5;
+	margin-top: 50px;
+}
+.project h4{
+	font-size: 24px;
+	color: #737373;
+	margin-bottom: 45px;
+}
+.about-img img{
+	width: 100%;
+}
+.single-about-detail{
+	position: relative;
+}
+
+.pentagon-text h1{
+	font-size: 60px;
+	color: #383838;
+	margin-top: 0;
+	transition: all .7s ease 0s;
+	-webkit-transition: all .7s ease 0s;
+	-moz-transition: all .7s ease 0s;
+	-o-transition: all .7s ease 0s;
+	-ms-transition: all .7s ease 0s;
+	position: absolute;
+	  left: 15%;
+	  width: 50px;
+	  top: -6%;
+}
+.pentagon-text {
+  width: 70px;
+  height: 52px;
+  background: #fff;
+  position: relative;
+   top: -30px;
+  left: 43%;
+}
+.pentagon-text:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 34px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 15px solid #fff;
+}
+.pentagon-text:after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 0;
+  height: 0px;
+  border-left: 36px solid transparent;
+  border-right: 34px solid transparent;
+  border-top: 15px solid #fff;
+}
+.about-details{
+	background: #2a2a2a;
+	border-top: 2px solid #fff;
+	transition: all .7s ease 0s;
+	-webkit-transition: all .7s ease 0s;
+	-moz-transition: all .7s ease 0s;
+	-o-transition: all .7s ease 0s;
+	-ms-transition: all .7s ease 0s;
+}
+.about-details h3{
+	font-size: 36px;
+	color: #fff;
+	margin-top: 0;
+}
+.about-details p{
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 25px;
+	padding-bottom: 30px;
+}
+.single-about-detail:hover .about-details{
+	background: #38AFA9;
+}
+.single-about-detail:hover .pentagon-text h1{
+	color: #38AFA9;
+}
+.about h2{
+	font-size: 90px;
+	color: #42b3e5;
+	margin-top: 50px;
+}
+
+#ab {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #38AFA9;
+}
+
+#mp{
+	font-weight: 300;
+	color: #38AFA9;
+	letter-spacing: 1px;
+}
